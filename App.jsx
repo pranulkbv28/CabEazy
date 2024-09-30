@@ -10,8 +10,8 @@ import React from 'react';
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>This is the Main Page</Text>
+    <View>
+      <Text style={styles.container}>This is the Main Page</Text>
     </View>
   );
 };
@@ -20,6 +20,6 @@ export default App;
 
 const styles = StyleSheet.create({
   container: {
-    color: 'red',
+    color: 'black',
   },
 });
